@@ -23,7 +23,7 @@ Contact Module Managment uses the following technologies:
 
 ### `.env` File
 
-Rename the env.example file to .env and fill in the following environment variables:
+Rename .example file to .env and fill in the following environment variables:
 - Get your MongoDB connection string from your MongoDB Atlas cluster and add it to MONGODB_URI.
 - Get your Google client ID and secret from your Google console account and add them to GOOGLE_CLIENT_ID and GOOGLE_CLIENT_SECRET.
 - Add a secret to NEXTAUTH_SECRET. You can generate with the following command: 
