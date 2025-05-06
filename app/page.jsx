@@ -1,11 +1,11 @@
-import HomeProperties from "@/components/HomeProperties";
+import HomePage from "@/components/HomePage";
 import Information from "@/components/Information";
 
 const Home = async () => {
   return (
     <>
       <Information></Information>
-      <HomeProperties></HomeProperties>
+      <HomePage></HomePage>
     </>
   );
 }

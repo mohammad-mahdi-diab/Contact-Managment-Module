@@ -62,7 +62,6 @@ const AllContactspage = () => {
                     ) : (
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                             {contactState.map((contact) => (
-                                // <ContactsCard key={contact._id} property={contact} allContacts={true} />
                                 <div key={contact._id} className="rounded-xl shadow-md relative">
                                     <h3 className="top-[10px] right-[10px] bg-white px-4 py-2 rounded-lg text-red-500 font-bold text-center">
                                         {contact.position}

@@ -1,6 +1,7 @@
 import GoogleProvider from "next-auth/providers/google"
 import connectDB from "@/config/database"
 import User from "@/models/User"
+const ADMIN_EMAIL = process.env.ADMIN_EMAIL
 
 export const authOptions = {
     providers: [
@@ -42,7 +43,7 @@ export const authOptions = {
             // 2. Assign the user id to the session
             session.user.id = user._id.toString();
             // 3. check if admin
-            if (user.email === '<>') {
+            if (user.email === ADMIN_EMAIL) {
                 session.user.admin = true
             }
             // 3. Return session
