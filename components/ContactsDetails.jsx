@@ -6,7 +6,7 @@ const ContactDetails = ({ contact }) => {
     return ((!session && !contact.approved) ||
         (session && !session.user?.admin && !contact.approved && contact.owner.toString() !== session.user.id) ?
         <h1 className="text-center text-2xl font-bold mt-10">
-            Contact not found
+            Contact either does not found or yet to be approved by the admin
         </h1> :
         <main>
             <div className="bg-white p-6 rounded-lg shadow-md text-center md:text-left">
