@@ -26,6 +26,9 @@ Contact Module Managment uses the following technologies:
 Rename .example file to .env and fill in the following environment variables:
 - Get your MongoDB connection string from your MongoDB Atlas cluster and add it to MONGODB_URI.
 - Get your Google client ID and secret from your Google console account and add them to GOOGLE_CLIENT_ID and GOOGLE_CLIENT_SECRET and add your test emails.
+- From Google console enable the following scopes:
+    - userinfo.email
+    - userinfo.profile
 - Put your admin email fron one of the test emails used inside google console
 - Add a secret to NEXTAUTH_SECRET. You can generate with the following command: 
 
