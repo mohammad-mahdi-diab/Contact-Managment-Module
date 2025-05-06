@@ -1,0 +1,104 @@
+[
+  {
+    "_id": "1",
+    "first_name": "Mahdi",
+    "last_name": "Diab",
+    "position": "Head Doctor",
+    "location": {
+      "country": "Boston",
+      "city": "Boston"
+    },
+    "email": "mahdidiab@gmail.com",
+    "phone_numbers": {
+      "phone_number": "123",
+      "landline_number": "456"
+    },
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": "2",
+    "first_name": "Mahdi2",
+    "last_name": "Diab",
+    "position": "Assistant Doctor",
+    "location": {
+      "country": "Boston",
+      "city": "Boston"
+    },
+    "email": "mahdidiab@gmail.com",
+    "phone_numbers": {
+      "phone_number": "123",
+      "landline_number": "456"
+    },
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": "3",
+    "first_name": "Mahdi3",
+    "last_name": "Diab",
+    "position": "Nurse",
+    "location": {
+      "country": "Boston",
+      "city": "Boston"
+    },
+    "email": "mahdidiab@gmail.com",
+    "phone_numbers": {
+      "phone_number": "123",
+      "landline_number": "456"
+    },
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": "4",
+    "first_name": "Mahdi4",
+    "last_name": "Diab",
+    "position": "Lab Director",
+    "location": {
+      "country": "Boston",
+      "city": "Boston"
+    },
+    "email": "mahdidiab@gmail.com",
+    "phone_numbers": {
+      "phone_number": "123",
+      "landline_number": "456"
+    },
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": "6",
+    "first_name": "Mahdi6",
+    "last_name": "Diab",
+    "position": "Lab assistant",
+    "location": {
+      "country": "Boston",
+      "city": "Boston"
+    },
+    "email": "mahdidiab@gmail.com",
+    "phone_numbers": {
+      "phone_number": "123",
+      "landline_number": "456"
+    },
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": "7",
+    "first_name": "Mahdi7",
+    "last_name": "Diab",
+    "position": "Secretary",
+    "location": {
+      "country": "Boston",
+      "city": "Boston"
+    },
+    "email": "mahdidiab@gmail.com",
+    "phone_numbers": {
+      "phone_number": "123",
+      "landline_number": "456"
+    },
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  }
+]
