@@ -42,7 +42,7 @@ export const authOptions = {
             // 2. Assign the user id to the session
             session.user.id = user._id.toString();
             // 3. check if admin
-            if (user.email === 'abodiab.mhd@gmail.com') {
+            if (user.email === '<>') {
                 session.user.admin = true
             }
             // 3. Return session
