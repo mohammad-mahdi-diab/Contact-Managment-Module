@@ -59,7 +59,7 @@ const SearchResultsPage = () => {
                         ) : (
                             <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
                                 {contents.map((contact) => (
-                                    <ContactsCard key={contact._id} property={contact} />
+                                    contact.approved ? <ContactsCard key={contact._id} property={contact} /> : null
                                 ))}
                             </div>
                         )}
